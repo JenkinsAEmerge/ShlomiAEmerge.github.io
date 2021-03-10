@@ -1,0 +1,26 @@
+.dot {
+    font-size: 200px;
+    position: fixed;
+    animation: myMove 10s infinite, myColor 2s infinite;
+    display: inline-block;
+}
+
+@keyframes myMove {
+    0%   {top: 50%; left: -20%;}
+    50%  {top: 50%; left: 100%; }
+    100%   {top: 50%; left: -20%;}
+}
+
+@keyframes myColor {
+    0%   {background-color: red;}
+    10%   {background-color: firebrick;}
+    30%   {background-color: rebeccapurple;}
+    50%  {background-color: green;}
+    70% {background-color: greenyellow;}
+    80% {background-color: blue;}
+    100%   { background-color: red;}
+}
+
+label {
+    color: red;
+}
